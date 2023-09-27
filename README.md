@@ -1,4 +1,3 @@
-"'
 An automobile company plans to launch new production lines in the coming year, each of which will have the ability to produce certain types of cars. The information related to the cost of setting up each production line and the time capacity of each line is the first Excel sheet. Also, the production time of each food in minutes is in the second sheet.
 The limitations of the problem include:
 
@@ -15,4 +14,3 @@ The limitations of the problem include:
 6-	Due to the existence of environmental conventions, the production of cars with high engine volume should be controlled. Therefore, the car manufacturer is obliged to produce three cars, Edge, Explorer and Mustang, which have 3600, 2400, and 7200 cc engines, in such a way that the total volume of these 3 models does not exceed 32,000 liters.
 
 The linear programming model of the problem was obtained with the aim of maximizing the income in GAMS software.
-"'
