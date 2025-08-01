@@ -1,19 +1,20 @@
-## Optimizing-production-Lines
+## Introduction
 
-###
-An automobile company plans to launch new production lines in the coming year, each of which will have the ability to produce certain types of cars. The information related to the cost of setting up each production line and the time capacity of each line is the first Excel sheet. Also, the production time of each food in minutes is in the second sheet.
-The limitations of the problem include:
+### 
+Ford Motor Company plans to launch new production lines next year, each capable of manufacturing specific types of vehicles. Detailed data are provided regarding the cost and time capacity of each line, as well as the time required to produce each vehicle type.
 
-1-	Due to space and capital limitations, the company has the possibility of building a maximum of 3 production lines. Also, due to some restrictions, it is not possible to build production lines 4 and 5 at the same time.
+Constraints:
 
-2-	Due to the policy of maintaining market share, the company must sell at least 18,000 devices. Also, at least 4 car models should be produced.
+1. Due to mechanical and financial limitations, the company can operate a maximum of 3 production lines. Lines 4 and 5 cannot be launched simultaneously.
 
-3-	If it is decided to produce one type of car, at least 1500 units of that type should be produced.
+2. To maintain its market share, the company must produce and sell at least 18,000 vehicles, including a minimum of 4 different models.
 
-4-	According to the contract with a construction company, the company is obliged to produce at least 1500 vans. If the request is not accepted, the company must pay a fine of 3.5 million dollars.
+3. If a single vehicle type is selected for production, at least 1,500 units of that type must be produced.
 
-5-	According to market research, people are more interested in buying SUV cars. Therefore, it is necessary to allocate at least 63% of the production of the family class (all cars except pickups and vans) to cars of this class.
+4. According to a contract with a construction company, Ford must produce at least 1,500 units of the "VANT" vehicle. Failure to meet this target results in a $3.5 million penalty.
 
-6-	Due to the existence of environmental conventions, the production of cars with high engine volume should be controlled. Therefore, the car manufacturer is obliged to produce three cars, Edge, Explorer and Mustang, which have 3600, 2400, and 7200 cc engines, in such a way that the total volume of these 3 models does not exceed 32,000 liters.
+5. Based on market research, customer preference leans heavily toward SUVs. Therefore, at least 63% of family-class vehicle production (excluding VANT and VAN) must consist of SUVs.
 
-The linear programming model of the problem was obtained with the aim of maximizing the income in GAMS software.
+6. Due to environmental regulations, the total engine volume of three models—AG, Explorer, and Mustang (with engines of 3600cc, 2400cc, and 7200cc)—must not exceed 32,000 liters in total.
+
+The linear programming model to maximize revenue under the given constraints was developed and implemented using GAMS.
